@@ -36,7 +36,7 @@ def decryptor(string):
     for x in range(len(string_mirror)):
         string_list.append("")
         
-    #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
     
     while (len(string_mirror) != 0):
         if (len(string_mirror) != 1):
@@ -49,7 +49,7 @@ def decryptor(string):
             string_list[int(len(string) / 2)] = string_mirror
             string_mirror = ""
             
-    #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
     for letter in string_list:
         decrypted_string += letter
@@ -89,3 +89,5 @@ while (program_runs == True):
         print(" --------------- ")
         print("| Invalid Input |")
         print(" ---------------")
+
+#---------------------------------------------------------------------------------------
